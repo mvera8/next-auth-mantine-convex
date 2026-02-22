@@ -9,9 +9,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@dnd-kit/react": "^0.3.2",
+    "@mantine/core": "^8.3.15",
+    "@mantine/hooks": "^8.3.15",
+    "@tabler/icons-react": "^3.37.1",
+    "convex": "^1.32.0",
     "next": "16.1.6",
+    "next-auth": "^5.0.0-beta.30",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "sileo": "^0.1.4"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -19,6 +26,8 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
     "typescript": "^5"
   }
 }
